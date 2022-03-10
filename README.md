@@ -1,6 +1,9 @@
 # go-plugin 
 
-[![Go](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) [![GoDoc](https://godoc.org/github.com/kcat-io/go-plugin?status.svg)](http://godoc.org/github.com/kcat-io/go-plugin) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](http://copyfree.org)
+[![Go](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kcat-io/go-plugin)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/kcat-io/go-plugin)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](http://copyfree.org)
 
 一个插件库（插件引擎），可以使你的Go程序轻松支持插件式扩展。
 
@@ -107,6 +110,17 @@ func main(){
 	log.Println(strOut)
 }
 ```
+
+## Documentation
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kcat-io/go-plugin) 
+
+Full `go doc` style documentation for the project can be viewed online without
+installing this package by using the excellent GoDoc site here:
+http://godoc.org/github.com/kcat-io/go-plugin
+
+You can also view the documentation locally once the package is installed with
+the `godoc` tool by running `godoc -http=":6060"` and pointing your browser to
+http://localhost:6060/pkg/github.com//kcat-io/go-plugin
 
 ## License
 MIT - See [LICENSE][license] file
