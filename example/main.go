@@ -38,12 +38,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// 加载配置中的规则
+	// 加载配置中的插件
 	var ps = plugin.Plugins{}
 	for _, p := range c.PluginList {
 		f := plugin.GetPlugin(p)
 		if f == nil {
-			log.Fatalf("plugin %s no registered", p)
+			log.Fatalf("Plugin %s is not registered yet.", p)
 		}
 		ps = append(ps, f)
 	}
