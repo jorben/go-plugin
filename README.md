@@ -1,6 +1,6 @@
-# go-plugin
-[![Go](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml)
-[![GoDoc](https://godoc.org/github.com/kcat-io/go-plugin?status.svg)](http://godoc.org/github.com/kcat-io/go-plugin)
+# go-plugin 
+
+[![Go](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) [![GoDoc](https://godoc.org/github.com/kcat-io/go-plugin?status.svg)](http://godoc.org/github.com/kcat-io/go-plugin) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](http://copyfree.org)
 
 一个插件库（插件引擎），可以使你的Go程序轻松支持插件式扩展。
 
