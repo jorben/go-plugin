@@ -7,6 +7,8 @@
 - 这是一个链表式插件库，它把各个插件按顺序连接起来
 - 每个插件均可在next handle的前后分别实现`前序逻辑`和`后续逻辑`
 - 各插件的执行顺序如下图所示
+
+
 [![go-plugin](https://kcat.io/usr/uploads/2022/03/3388664059.png)](https://kcat.io)
 
 ## Install
