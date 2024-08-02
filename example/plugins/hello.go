@@ -2,7 +2,7 @@ package plugins
 
 import (
 	"context"
-	"github.com/kcat-io/go-plugin/plugin"
+	"github.com/jorben/go-plugin/plugin"
 	"log"
 	"time"
 )
