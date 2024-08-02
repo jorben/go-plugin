@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	_ "github.com/kcat-io/go-plugin/example/plugins"
-	"github.com/kcat-io/go-plugin/plugin"
+	_ "github.com/jorben/go-plugin/example/plugins"
+	"github.com/jorben/go-plugin/plugin"
 	"gopkg.in/yaml.v3"
 	"log"
 	"time"
