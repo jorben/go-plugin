@@ -1,6 +1,6 @@
 # go-plugin 
 
-[![Go](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) 
+[![Go](https://github.com/jorben/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/kcat-io/go-plugin)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/kcat-io/go-plugin)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](http://copyfree.org)
@@ -12,11 +12,11 @@
 - 各插件的执行顺序如下图所示
 
 
-[![go-plugin](https://kcat.io/usr/uploads/2022/03/3388664059.png)](https://kcat.io)
+[![go-plugin](https://kcat.me/usr/uploads/2022/03/3388664059.png)](https://kcat.io)
 
 ## Install
 ```shell
-go get -u github.com/kcat-io/go-plugin/plugin
+go get -u github.com/jorben/go-plugin/plugin
 ```
 
 ## Example
@@ -28,7 +28,7 @@ package plugins
 
 import (
 	"context"
-	"github.com/kcat-io/go-plugin/plugin"
+	"github.com/jorben/go-plugin/plugin"
 	"log"
 )
 
@@ -64,8 +64,8 @@ package main
 import (
 	"context"
 	// 这里需要import刚编写的插件，此处以example中的示例为参考
-	_ "github.com/kcat-io/go-plugin/example/plugins"
-	"github.com/kcat-io/go-plugin/plugin"
+	_ "github.com/jorben/go-plugin/example/plugins"
+	"github.com/jorben/go-plugin/plugin"
 	"log"
 	"time"
 )
@@ -112,17 +112,17 @@ func main(){
 ```
 
 ## Documentation
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/kcat-io/go-plugin) 
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/jorben/go-plugin) 
 
 Full `go doc` style documentation for the project can be viewed online without
 installing this package by using the excellent GoDoc site here:
-http://godoc.org/github.com/kcat-io/go-plugin
+http://godoc.org/github.com/jorben/go-plugin
 
 You can also view the documentation locally once the package is installed with
 the `godoc` tool by running `godoc -http=":6060"` and pointing your browser to
-http://localhost:6060/pkg/github.com//kcat-io/go-plugin
+http://localhost:6060/pkg/github.com/jorben/go-plugin
 
 ## License
 MIT - See [LICENSE][license] file
 
-[license]: https://github.com/kcat-io/go-plugin/blob/master/LICENSE
+[license]: https://github.com/jorben/go-plugin/blob/master/LICENSE
