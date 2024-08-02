@@ -1,4 +1,4 @@
-module github.com/kcat-io/go-plugin
+module github.com/jorben/go-plugin
 
 go 1.17
 
