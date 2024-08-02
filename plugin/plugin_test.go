@@ -3,7 +3,7 @@ package plugin_test
 import (
 	"context"
 	"fmt"
-	"github.com/kcat-io/go-plugin/plugin"
+	"github.com/jorben/go-plugin/plugin"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
