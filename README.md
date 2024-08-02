@@ -1,8 +1,8 @@
 # go-plugin 
 
-[![Go](https://github.com/jorben/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/kcat-io/go-plugin/actions/workflows/go.yml) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/kcat-io/go-plugin)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/kcat-io/go-plugin)
+[![Go](https://github.com/jorben/go-plugin/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/jorben/go-plugin/actions/workflows/go.yml) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/jorben/go-plugin)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/jorben/go-plugin)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)](http://copyfree.org)
 
 一个插件库（插件引擎），可以使你的Go程序轻松支持插件式扩展。
@@ -11,8 +11,6 @@
 - 每个插件均可在next handle的前后分别实现`前序逻辑`和`后续逻辑`
 - 各插件的执行顺序如下图所示
 
-
-[![go-plugin](https://kcat.me/usr/uploads/2022/03/3388664059.png)](https://kcat.io)
 
 ## Install
 ```shell
